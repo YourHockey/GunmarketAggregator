@@ -17,5 +17,6 @@ jobs:
           architecture: x64
       - name: Build with Maven
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: mvn -B verify
+          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+        run: mvn -s .github/settings.xml -B verify
