@@ -3,7 +3,7 @@ package ru.vakoom.gunmarket.aggregator.web.dto;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
-import ru.gunmarket.model.Type;
+import ru.vakoom.gunmarket.commondatalayer.model.Type;
 
 @Setter
 @Getter

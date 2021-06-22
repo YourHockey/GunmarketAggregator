@@ -1,7 +1,7 @@
 package ru.vakoom.gunmarket.aggregator.web.preparer;
 
 import org.springframework.stereotype.Component;
-import ru.gunmarket.querybuilder.BasicEntity;
+import ru.vakoom.querybuilder.BasicEntity;
 
 @Component
 public class InStockPreparer implements Preparer {

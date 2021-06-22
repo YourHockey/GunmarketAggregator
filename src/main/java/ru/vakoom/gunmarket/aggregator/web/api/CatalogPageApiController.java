@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import ru.gunmarket.model.Product;
-import ru.gunmarket.web.dto.ProductDto;
-import ru.gunmarket.web.preparer.FilterAndPageable;
 import ru.vakoom.gunmarket.aggregator.service.ProductService;
+import ru.vakoom.gunmarket.aggregator.web.dto.ProductDto;
 import ru.vakoom.gunmarket.aggregator.web.mapper.ProductMapper;
+import ru.vakoom.gunmarket.aggregator.web.preparer.FilterAndPageable;
 import ru.vakoom.gunmarket.aggregator.web.preparer.Preparer;
+import ru.vakoom.gunmarket.commondatalayer.model.Product;
 
 import java.util.List;
 import java.util.Map;

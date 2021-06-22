@@ -2,8 +2,8 @@ package ru.vakoom.gunmarket.aggregator.web.api;
 
 import io.swagger.annotations.ApiOperation;
 import org.springframework.http.ResponseEntity;
-import ru.gunmarket.web.dto.ProductDto;
 import ru.vakoom.gunmarket.aggregator.web.dto.ExtendedProductDto;
+import ru.vakoom.gunmarket.aggregator.web.dto.ProductDto;
 
 public interface ProductDetailsPageApi {
 

@@ -3,8 +3,8 @@ package ru.vakoom.gunmarket.aggregator.service;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-import ru.gunmarket.model.Product;
-import ru.gunmarket.repo.ProductRepo;
+import ru.vakoom.gunmarket.commondatalayer.model.Product;
+import ru.vakoom.gunmarket.commondatalayer.repo.ProductRepo;
 
 import java.util.List;
 import java.util.Map;

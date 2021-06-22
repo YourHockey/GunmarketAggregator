@@ -1,11 +1,9 @@
 package ru.vakoom.gunmarket.aggregator.web.mapper;
 
 import org.springframework.stereotype.Component;
-import ru.gunmarket.model.Product;
-import ru.gunmarket.web.dto.ExtendedProductDto;
-import ru.gunmarket.web.dto.ProductDto;
 import ru.vakoom.gunmarket.aggregator.web.dto.ExtendedProductDto;
 import ru.vakoom.gunmarket.aggregator.web.dto.ProductDto;
+import ru.vakoom.gunmarket.commondatalayer.model.Product;
 
 import java.util.List;
 import java.util.Set;

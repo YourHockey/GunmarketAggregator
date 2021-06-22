@@ -3,7 +3,7 @@ package ru.vakoom.gunmarket.aggregator.web.preparer;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
-import ru.gunmarket.querybuilder.BasicEntity;
+import ru.vakoom.querybuilder.BasicEntity;
 
 @Component
 public class PaginationPreparer implements Preparer {

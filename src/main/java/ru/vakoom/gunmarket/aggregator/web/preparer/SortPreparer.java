@@ -4,8 +4,8 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Component;
-import ru.gunmarket.model.Product;
-import ru.gunmarket.querybuilder.BasicEntity;
+import ru.vakoom.gunmarket.commondatalayer.model.Product;
+import ru.vakoom.querybuilder.BasicEntity;
 
 @Component
 public class SortPreparer implements Preparer {
