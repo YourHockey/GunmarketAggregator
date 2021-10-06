@@ -13,5 +13,5 @@ public class ProductDto {
     private String name;
     private String brand;
     private Type type;
-    private String srcImageUrl;
+    private String imageUrl;
 }
