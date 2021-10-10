@@ -33,6 +33,7 @@ public class ProductMapper {
                 .setName(product.getName())
                 .setBrand(product.getBrand().getShortName())
                 .setImageUrl(product.getImageUrl())
+                .setMinPrice(product.getMinPrice() != null ? product.getMinPrice().toString() : "0")
                 .setType(product.getType());
     }
 
