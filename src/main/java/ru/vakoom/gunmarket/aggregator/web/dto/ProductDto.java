@@ -14,4 +14,5 @@ public class ProductDto {
     private String brand;
     private Type type;
     private String imageUrl;
+    private String minPrice;
 }
